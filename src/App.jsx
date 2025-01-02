@@ -1,13 +1,18 @@
 import Info from "./Info";
+import Navigation from "./Navigation";
 import Wedding from "./Wedding";
+import "./App.css"
 
 function App() {
-  return (<div>
-    
+  return (
+    <>
+        <Navigation/>
+
     <Info/>
-    <Wedding></Wedding>
-  </div>
-  )
+    <Wedding/>
+
+    </>
+  );
 }
 
 export default App;
